@@ -1,9 +1,9 @@
 package com.internousdev.struts2.util;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import com.mysql.jdbc.Connection;
 
 public class DBConnector {
 private static String driverName = "com.mysql.jdbc.Driver";
